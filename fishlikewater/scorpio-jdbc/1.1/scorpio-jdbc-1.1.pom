@@ -4,7 +4,7 @@
 
     <groupId>fishlikewater</groupId>
     <artifactId>scorpio-jdbc</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>scorpio-jdbc</name>
