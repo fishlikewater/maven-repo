@@ -8,7 +8,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>transactionManager</name>
+    <name>scorpio-jdbc-expand</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -58,11 +58,12 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-       <!-- <dependency>
+       <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${spring-freemark-version}</version>
-        </dependency>-->
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>fishlikewater</groupId>
             <artifactId>scorpio-jdbc</artifactId>
